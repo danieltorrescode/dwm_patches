@@ -8,6 +8,10 @@ my patched version of dwm
 
 - `git pull --rebase source main`
 
+- `wget https://dwm.suckless.org/patches/patch.diff`
+
+- `patch -p1 < patch.diff`
+
 - `make`
 
 - `make clean install`
